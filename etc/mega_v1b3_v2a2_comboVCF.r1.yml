@@ -1,0 +1,24 @@
+Files:
+   Infile: /data/ppm/biobank/request/test/Biobank_et85_20150823_000000_x20.csv
+   MergedReadme: /data/ppm/biobank/ref/sampmap/mega_v2a2/r1/README.merged_mega_v1v2_r1.gtdatavcf.txt
+   SnpInfo:
+      - /data/ppm/biobank/ped/mega_v1b3/ped_fwd_merge_dec30/mega_v1b3_x1416020.snpinfo_v4.txt
+      - /data/ppm/biobank/ref/sampmap/mega_v2a2/r1/mega_v2a2_x1741376.v2.snpinfo.txt
+   ConcordanceTable:
+      - /data/ppm/biobank/ref/sampmap/mega_v1b3/ConcordanceTable_x4931.txt
+      - /data/ppm/biobank/ref/sampmap/mega_v2a2/r1/concordancetable_mega_v2a2_r1_x4428.txt
+   BatchVcfFiles:
+      - /data/biobank/vcf/mega_v1b3/merged/biobank_mega_v1b3_x4930_collapsedSNPs.vcf.gz
+      - /data/biobank/vcf/mega_v2a2/merged/biobank_mega_v2a2_x4428_collapsedSNPs.vcf.gz
+Directories:
+   OutDir: 
+   BinDir: /PHShome/et85/git/biobank
+   BaseDir: /data/biobank/public
+   TempDir: /data/biobank/temp
+Settings:
+   Md5sum: true
+   ReadOnlyPermissions: true
+   CompressFiles: true
+   ArrayBatchNames:
+      - MEGA
+      - MEGAEX

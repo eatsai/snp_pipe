@@ -1,0 +1,20 @@
+Files:
+   Infile: /Volumes/ppm/biobank/request/test/Biobank_et85_20150823_000000_x20.csv
+   MergedReadme: /Volumes/ppm/biobank/ref/sampmap/mega_v2a2/r1/README.merged_mega_v1v2_r1.impute.txt
+   ConcordanceTable:
+      - /Volumes/ppm/biobank/ref/sampmap/mega_v1b3/ConcordanceTable_x4931.txt
+      - /Volumes/ppm/biobank/ref/sampmap/mega_v2a2/r1/concordancetable_mega_v2a2_r1_x4428.txt
+Directories:
+   VcfDir:
+      - /Volumes/biobank/vcf/mega_v1b3/collapsedVCF
+      - /Volumes/biobank/vcf/mega_v2a2/collapsedVCF
+   OutDir: 
+   BinDir: /Users/et85/git/biobank
+   BaseDir: /Volumes/biobank/public
+   TempDir: /Volumes/biobank/temp
+Settings:
+   Md5sum: true
+   ReadOnlyPermissions: true
+   ArrayBatchNames:
+      - MEGA
+      - MEGAEX

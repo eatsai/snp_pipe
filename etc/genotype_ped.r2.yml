@@ -1,0 +1,37 @@
+Files:
+   InFile: /data/ppm/biobank/request/test/Biobank_vc070_20151019_095350_x21.csv
+   ConcordanceTable:
+      - /data/biobank/ref/sampmap/mega_v1b3/ConcordanceTable_x4931.txt
+      - /data/biobank/ref/sampmap/mega_v2a2/r1/concordancetable_mega_v2a2_r1_x4428.txt
+      - /data/biobank/ref/sampmap/mega_v2a2/batch2/concordancetable_mega_v2a2_batch2_x741.txt
+   Map:
+      - /data/ppm/biobank/ped/mega_v1b3/ped_fwd_merge_dec30/biobank_x4930_r3_1416020snps.map
+      - /data/biobank/ped/mega_v2a2/merge/batchA/biobank_mega_v2a2_x4427_multiethniconlysnp.map
+      - /data/biobank/ped/mega_v2a2/merge/batch2/biobank_mega_v2a2_batch2_x741_1741376snps.map
+   SnpInfo:
+      - /data/biobank/ref/sampmap/mega_v1b3/mega_v1b3_x1416020.snpinfo_v4.txt
+      - /data/biobank/ref/sampmap/mega_v2a2/r1/mega_v2a2_x1741376.v2.snpinfo.txt
+      - /data/biobank/ref/sampmap/mega_v2a2/r1/mega_v2a2_x1741376.v2.snpinfo.txt
+   MergedReadme: /scratch/pcpgm/et85/git/biobank/readme/genotype_ped.r2.readme
+Directories:
+   OutDir: 
+   TransferDir: 
+   PedDir:
+      - /data/ppm/biobank/ped/mega_v1b3/ped_fwd_final_x1416020
+      - /data/ppm/biobank/ped/mega_v2a2/ped_fwd_final_x1741376
+      - /data/biobank/ped/mega_v2a2/ind/batch2_1741376snps
+   BinDir: /PHShome/et85/git/biobank
+   BaseDir: /data/biobank/public
+   TempDir: /data/biobank/temp
+Settings:
+   CompressDir: True
+   Md5sum: False
+   ReadOnlyPermissions: False
+   ArrayBatchNames:
+      - MEGA_batchA
+      - MEGAEX_batchA
+      - MEGAEX_batchB
+   ArrayBatchCovariates:
+      - 1
+      - 2
+      - 3
